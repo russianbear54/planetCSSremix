@@ -1,0 +1,11 @@
+{
+  "name": "plnaetcssremix",
+  "version": "1.0.0",
+  "description": "CSS rework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Kuprin",
+  "license": "ISC"
+}
