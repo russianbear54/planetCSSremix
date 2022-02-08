@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-/* *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  } */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 html {
   width: 100%;
@@ -16,7 +16,6 @@ html {
 }
 
 body {
-  display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
@@ -35,31 +34,9 @@ body {
 
 .solar-system-container {
   display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
   margin: auto;
   width: 50%;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: 1fr 1fr;
-}
-
-.planet {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.planet > * {
-  padding: 1rem;
-}
-
-.planet > h1 {
-  columns: white;
-  font-size: 2rem;
-}
-
-.planet > img {
-  width: 50%;
-  border-radius: 100%;
 }

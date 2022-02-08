@@ -1,0 +1,35 @@
+.planet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  h1 {
+    columns: white;
+    font-size: 2rem;
+  }
+
+  img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 50%;
+    max-height: 100%;
+  }
+}
+
+.planet > * {
+  padding: 1rem;
+}
+
+// .planet > h1 {
+//   columns: white;
+//   font-size: 2rem;
+// }
+
+// .planet > img {
+//   border-radius: 100%;
+//   object-fit: cover;
+//   width: 50%;
+//   /* max-height: 100%; */
+// }
